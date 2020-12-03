@@ -22,7 +22,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "aot": true,
+            "aot": false,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/systemjs/dist/system.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -93,7 +95,9 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/systemjs/dist/system.js"
+            ]
           }
         },
         "lint": {
@@ -124,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "mf-root"
+  "defaultProject": "mf-root",
+  "cli": {
+    "analytics": "fb38edc0-3f2b-43c8-8904-b726f6f5e6de"
+  }
 }
