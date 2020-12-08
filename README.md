@@ -1,6 +1,15 @@
-# MfRoot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
+
+# MfRoot
+POC Micro Frontends
+
+# Implementação
+Implementação baseada em criar uma aplicação angular e exporta-lá como modulo usando ng-packagr parea carrega-lá utilizando SystemJS.
+A aplicação exportada pode ser encontrada aqui: https://github.com/magnolemos/micro-frontend-one 
+
+# Uso
+Rodar o comando npm start.
+Para gerar o modulo do outro Micro Frontend, seguir os passos disponiveis no README do repositório: https://github.com/magnolemos/micro-frontend-one 
 
 ## Development server
 
