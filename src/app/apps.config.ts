@@ -9,9 +9,9 @@ export interface AppsConfig {
   export function getApps(): AppsConfig[] {
     return [
       {
-        title: 'MicroFrontend Alpha',
-        name: 'alpha',
-        path: 'alpha',
+        title: 'MicroFrontend One',
+        name: 'mf-one',
+        path: 'mf-one',
         url: 'http://localhost:3333',
         // devUrl: 'http://localhost:3333',
       },
