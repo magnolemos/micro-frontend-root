@@ -4,7 +4,7 @@
 POC Micro Frontends
 
 # Implementação
-Implementação baseada em criar uma aplicação angular e exporta-lá como modulo usando ng-packagr parea carrega-lá utilizando SystemJS.
+Implementação baseada em exportar uma aplicação como modulo usando ng-packagr e carrega-lá  utilizado SystemJS.
 A aplicação exportada pode ser encontrada aqui: https://github.com/magnolemos/micro-frontend-one 
 
 # Uso
